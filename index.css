@@ -1,0 +1,30 @@
+body{
+  padding-bottom: 100px;
+}
+
+.abs{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+
+}
+
+.skill{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.still{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: lightgreen;
+}
